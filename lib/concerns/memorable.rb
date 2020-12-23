@@ -1,5 +1,9 @@
 module Memorable
 
+  def save
+    self.class.all << self
+  end
+
   def reset_all
     self.all.clear
   end
