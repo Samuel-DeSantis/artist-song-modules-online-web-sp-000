@@ -11,10 +11,6 @@ class Song
 
   @@songs = []
 
-  def initialize
-    save
-  end
-
   def self.all
     @@songs
   end
